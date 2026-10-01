@@ -378,9 +378,9 @@ become faster, more resilient, secure, and easier to operate.
 
 📧 **Email:** sukhamanchisaivenkatasriharsha@gmail.com
 
-> **GitHub:** Add your GitHub profile URL here\
+> **GitHub:** https://github.com/ssvsh
 > **LinkedIn:** Add your LinkedIn profile URL here\
-> **Portfolio:** Add your portfolio URL here
+> **Portfolio:** https://github.com/ssvsh/Sri-Harsha-Portfolio/blob/main/README.md
 
 ------------------------------------------------------------------------
 
