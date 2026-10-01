@@ -173,7 +173,7 @@ User / Application
 
 # 💼 Professional Experience
 
-## Java / GenAI Developer --- Infosys
+## Java / GenAI Developer ---Infosys(Apple)
 
 **Client: Apple Inc.** · Nov 2025 -- Present
 
@@ -249,7 +249,7 @@ enterprise AI chatbot.
 
 ------------------------------------------------------------------------
 
-## Software Engineer -- Data --- TCS
+## Software Engineer -- Data --- TCS(Meijer)
 
 **Client: Meijer** · Aug 2021 -- Jan 2023
 
