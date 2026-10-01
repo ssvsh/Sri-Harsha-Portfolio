@@ -374,13 +374,23 @@ become faster, more resilient, secure, and easier to operate.
 
 ------------------------------------------------------------------------
 
-# 📫 Connect With Me
+## 📫 Let's Connect
 
-📧 **Email:** sukhamanchisaivenkatasriharsha@gmail.com
+<p align="left">
+  <a href="https://github.com/ssvsh">
+    <img src="https://img.shields.io/badge/GitHub-ssvsh-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <br><br>
 
-> **GitHub:** https://github.com/ssvsh\
-> **LinkedIn:** Add your LinkedIn profile URL here\
-> **Portfolio:** https://github.com/ssvsh/Sri-Harsha-Portfolio/blob/main/README.md
+  <a href="YOUR_LINKEDIN_URL">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <br><br>
+
+  <a href="https://github.com/ssvsh/Sri-Harsha-Portfolio">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  </a>
+</p>
 
 ------------------------------------------------------------------------
 
