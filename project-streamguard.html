@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        StreamGuard | Sri Harsha
+    </title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+
+            <nav>
+
+                <a href="index.html"
+                   class="logo">
+                    Sri Harsha
+                </a>
+
+                <div class="nav-links">
+
+                    <a href="index.html#about">
+                        About
+                    </a>
+
+                    <a href="index.html#skills">
+                        Skills
+                    </a>
+
+                    <a href="index.html#projects">
+                        Projects
+                    </a>
+
+                    <a href="index.html#experience">
+                        Experience
+                    </a>
+
+                    <a href="index.html#contact">
+                        Contact
+                    </a>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="explore-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        PROJECT 04
+                    </span>
+
+                    <h1>
+                        StreamGuard
+                    </h1>
+
+                    <p>
+                        AI-Powered Real-Time Data Quality & Schema
+                        Evolution Platform
+                    </p>
+
+                </div>
+
+
+                <!-- Project Overview -->
+
+                <div class="navigation-card">
+
+                    <h2>
+                        Project Overview
+                    </h2>
+
+                    <p>
+                        StreamGuard is a real-time data quality and
+                        schema evolution platform designed to protect
+                        event-driven systems from invalid data,
+                        breaking schema changes, and incompatible
+                        message contracts.
+                    </p>
+
+                    <p>
+                        The platform validates Kafka events against
+                        versioned data contracts, evaluates schema
+                        compatibility, detects data quality issues,
+                        and maintains quality metrics across
+                        distributed event streams.
+                    </p>
+
+                    <p>
+                        GenAI capabilities are integrated to analyze
+                        detected schema changes and generate
+                        migration recommendations, rollback strategies,
+                        and potential downstream impact assessments.
+                    </p>
+
+                </div>
+
+
+                <!-- Technology Stack -->
+
+                <div class="navigation-card">
+
+                    <h2>
+                        Technology Stack
+                    </h2>
+
+                    <div class="tags">
+
+                        <span>Java 21</span>
+                        <span>Spring Boot</span>
+                        <span>Spring WebFlux</span>
+                        <span>Apache Kafka</span>
+                        <span>MongoDB</span>
+                        <span>Redis</span>
+                        <span>Resilience4j</span>
+                        <span>GenAI / LLM</span>
+                        <span>React</span>
+                        <span>Prometheus</span>
+                        <span>Grafana</span>
+                        <span>Docker</span>
+                        <span>JUnit</span>
+                        <span>Testcontainers</span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Key Engineering Work -->
+
+                <div class="navigation-card">
+
+                    <h2>
+                        Key Engineering Work
+                    </h2>
+
+                    <ul>
+
+                        <li>
+                            Designed a real-time validation pipeline
+                            for Kafka events using Java and Spring
+                            WebFlux.
+                        </li>
+
+                        <li>
+                            Implemented versioned data contracts to
+                            validate incoming event structures against
+                            expected schemas.
+                        </li>
+
+                        <li>
+                            Built deterministic schema compatibility
+                            checks to identify backward-compatible,
+                            forward-compatible, and breaking changes.
+                        </li>
+
+                        <li>
+                            Added data quality validation for required
+                            fields, data types, value ranges, null
+                            constraints, and business rules.
+                        </li>
+
+                        <li>
+                            Implemented schema version tracking and
+                            change detection using MongoDB.
+                        </li>
+
+                        <li>
+                            Used Redis for frequently accessed schema
+                            metadata, validation rules, and runtime
+                            caching.
+                        </li>
+
+                        <li>
+                            Implemented Kafka retry and dead-letter
+                            processing for invalid or repeatedly
+                            failing events.
+                        </li>
+
+                        <li>
+                            Designed idempotent event-processing
+                            workflows to prevent duplicate validation
+                            and processing.
+                        </li>
+
+                        <li>
+                            Integrated Resilience4j to provide
+                            timeout, retry, circuit-breaker, and
+                            controlled fallback behavior for dependent
+                            services.
+                        </li>
+
+                        <li>
+                            Integrated an LLM gateway to generate
+                            migration recommendations and explain
+                            potential downstream impact of schema
+                            changes.
+                        </li>
+
+                        <li>
+                            Exposed REST APIs for schema management,
+                            validation results, quality metrics, and
+                            compatibility analysis.
+                        </li>
+
+                        <li>
+                            Built a React-based dashboard for viewing
+                            schema versions, validation failures,
+                            quality scores, and compatibility results.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Impact -->
+
+                <div class="navigation-card">
+
+                    <h2>
+                        Engineering Impact
+                    </h2>
+
+                    <div class="impact-grid">
+
+                        <div class="impact-card">
+
+                            <h3>
+                                Real-Time
+                            </h3>
+
+                            <p>
+                                Kafka-based event validation and
+                                quality monitoring for streaming
+                                workloads.
+                            </p>
+
+                        </div>
+
+
+                        <div class="impact-card">
+
+                            <h3>
+                                Schema
+                            </h3>
+
+                            <p>
+                                Automated compatibility analysis
+                                identifies potentially breaking
+                                contract changes.
+                            </p>
+
+                        </div>
+
+
+                        <div class="impact-card">
+
+                            <h3>
+                                AI
+                            </h3>
+
+                            <p>
+                                LLM-powered recommendations assist
+                                engineers with migration and
+                                remediation decisions.
+                            </p>
+
+                        </div>
+
+
+                        <div class="impact-card">
+
+                            <h3>
+                                Observable
+                            </h3>
+
+                            <p>
+                                Quality scores, validation failures,
+                                processing metrics, and system health
+                                are exposed through observability
+                                dashboards.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Architecture -->
+
+                <div class="navigation-card">
+
+                    <h2>
+                        Architecture
+                    </h2>
+
+                    <p>
+                        The platform follows a distributed,
+                        event-driven architecture:
+                    </p>
+
+                    <p>
+                        React Dashboard → API Gateway →
+                        Contract Service → Validation Service →
+                        Kafka → Quality Processing →
+                        MongoDB / Redis
+                    </p>
+
+                    <p>
+                        Schema changes are analyzed by the
+                        compatibility engine before the LLM layer
+                        generates migration recommendations and
+                        potential impact explanations.
+                    </p>
+
+                    <p>
+                        Prometheus and Grafana provide system and
+                        application-level observability, including
+                        Kafka processing metrics, validation failures,
+                        processing latency, and service health.
+                    </p>
+
+                </div>
+
+
+                <!-- AI Engineering -->
+
+                <div class="navigation-card">
+
+                    <h2>
+                        AI Engineering Approach
+                    </h2>
+
+                    <p>
+                        StreamGuard intentionally separates
+                        deterministic validation logic from AI-based
+                        recommendations.
+                    </p>
+
+                    <p>
+                        Core schema compatibility and data quality
+                        decisions are implemented using deterministic
+                        Java logic so that validation results remain
+                        predictable, testable, and safe for production
+                        workflows.
+                    </p>
+
+                    <p>
+                        The LLM is used as an intelligence layer for
+                        explaining schema changes, identifying
+                        potential downstream risks, recommending
+                        migration approaches, and generating
+                        remediation guidance.
+                    </p>
+
+                    <p>
+                        This approach prevents the LLM from becoming
+                        the source of truth for production validation
+                        decisions while still using GenAI where it
+                        provides meaningful engineering value.
+                    </p>
+
+                </div>
+
+
+                <!-- Distributed Systems -->
+
+                <div class="navigation-card">
+
+                    <h2>
+                        Distributed Systems Concepts
+                    </h2>
+
+                    <ul>
+
+                        <li>
+                            Event-driven architecture using Apache
+                            Kafka.
+                        </li>
+
+                        <li>
+                            Consumer groups and partition-based
+                            parallel processing.
+                        </li>
+
+                        <li>
+                            Idempotent event processing.
+                        </li>
+
+                        <li>
+                            Retry and dead-letter processing.
+                        </li>
+
+                        <li>
+                            Distributed caching using Redis.
+                        </li>
+
+                        <li>
+                            Schema versioning and compatibility
+                            management.
+                        </li>
+
+                        <li>
+                            Reactive and asynchronous processing using
+                            Spring WebFlux.
+                        </li>
+
+                        <li>
+                            Fault tolerance using Resilience4j.
+                        </li>
+
+                        <li>
+                            Metrics and observability using Prometheus
+                            and Grafana.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Back -->
+
+                <div class="navigation-card">
+
+                    <a href="index.html#projects"
+                       class="project-link">
+
+                        ← Back to Projects
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="container">
+
+            <p>
+                © 2026 Sri Harsha Sukhamanchi
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
